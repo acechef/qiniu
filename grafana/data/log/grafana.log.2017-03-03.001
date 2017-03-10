@@ -1,0 +1,1 @@
+t=2017-03-02T09:38:05+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=1 uname= method=GET path=/login status=302 remote_addr=10.10.80.183 time_ms=3ns size=24

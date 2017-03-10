@@ -1,0 +1,40 @@
+t=2017-02-28T09:20:23+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=1 uname= method=GET path=/login status=302 remote_addr=10.10.80.126 time_ms=2ns size=24
+t=2017-02-28T09:21:49+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/logout status=302 remote_addr=10.10.80.126 time_ms=1ns size=29
+t=2017-02-28T09:32:47+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.126 time_ms=32ns size=0
+t=2017-02-28T09:32:47+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.126 time_ms=54ns size=0
+t=2017-02-28T10:20:00+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/label/tid/values status=502 remote_addr=10.10.80.126 time_ms=0s size=0
+t=2017-02-28T10:46:22+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/db/zhu-ji-zhuang-tai-xing-neng status=404 remote_addr=10.10.80.36 time_ms=0s size=33
+t=2017-02-28T10:51:27+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=400 remote_addr=10.10.80.36 time_ms=2ns size=129
+t=2017-02-28T10:51:36+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=400 remote_addr=10.10.80.36 time_ms=15ns size=129
+t=2017-02-28T11:55:48+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/db/host_performance status=404 remote_addr=10.10.80.126 time_ms=1ns size=33
+t=2017-02-28T11:57:48+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/logout status=302 remote_addr=10.10.80.126 time_ms=1ns size=29
+t=2017-02-28T11:59:49+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/logout status=302 remote_addr=10.10.80.126 time_ms=0s size=29
+t=2017-02-28T13:43:01+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/logout status=302 remote_addr=10.10.80.126 time_ms=0s size=29
+t=2017-02-28T13:43:28+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/logout status=302 remote_addr=10.10.80.126 time_ms=0s size=29
+t=2017-02-28T13:44:12+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/logout status=302 remote_addr=10.10.80.126 time_ms=0s size=29
+t=2017-02-28T13:44:30+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/logout status=302 remote_addr=10.10.80.126 time_ms=1ns size=29
+t=2017-02-28T13:50:01+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/logout status=302 remote_addr=10.10.80.126 time_ms=0s size=29
+t=2017-02-28T14:05:18+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/logout status=302 remote_addr=10.10.80.126 time_ms=0s size=29
+t=2017-02-28T14:29:53+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/logout status=302 remote_addr=10.10.80.126 time_ms=1ns size=29
+t=2017-02-28T14:34:02+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/logout status=302 remote_addr=10.10.80.126 time_ms=1ns size=29
+t=2017-02-28T14:38:05+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/logout status=302 remote_addr=10.10.80.36 time_ms=0s size=29
+t=2017-02-28T14:41:03+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/logout status=302 remote_addr=10.10.80.126 time_ms=0s size=29
+t=2017-02-28T15:16:49+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/logout status=302 remote_addr=10.10.80.126 time_ms=0s size=29
+t=2017-02-28T17:11:38+0800 lvl=info msg="Starting Grafana" logger=main version=4.1.0-pre1 commit=954cdb9 compiled=2016-12-28T19:43:15+0800
+t=2017-02-28T17:11:38+0800 lvl=info msg="Config loaded from" logger=settings file=/opt/grafana/conf/defaults.ini
+t=2017-02-28T17:11:38+0800 lvl=info msg="Path Home" logger=settings path=/opt/grafana
+t=2017-02-28T17:11:38+0800 lvl=info msg="Path Data" logger=settings path=/opt/grafana/data
+t=2017-02-28T17:11:38+0800 lvl=info msg="Path Logs" logger=settings path=/opt/grafana/data/log
+t=2017-02-28T17:11:38+0800 lvl=info msg="Path Plugins" logger=settings path=/opt/grafana/data/plugins
+t=2017-02-28T17:11:38+0800 lvl=info msg="Initializing DB" logger=sqlstore dbtype=sqlite3
+t=2017-02-28T17:11:38+0800 lvl=info msg="Starting DB migration" logger=migrator
+t=2017-02-28T17:11:38+0800 lvl=info msg="Executing migration" logger=migrator id="copy data account to org"
+t=2017-02-28T17:11:38+0800 lvl=info msg="Skipping migration condition not fulfilled" logger=migrator id="copy data account to org"
+t=2017-02-28T17:11:38+0800 lvl=info msg="Executing migration" logger=migrator id="copy data account_user to org_user"
+t=2017-02-28T17:11:38+0800 lvl=info msg="Skipping migration condition not fulfilled" logger=migrator id="copy data account_user to org_user"
+t=2017-02-28T17:11:38+0800 lvl=info msg="Creating json dashboard index for path: [/opt/grafana/dashboards]"
+t=2017-02-28T17:11:38+0800 lvl=info msg="Starting plugin search" logger=plugins
+t=2017-02-28T17:11:38+0800 lvl=info msg="Initializing Alerting" logger=alerting.engine
+t=2017-02-28T17:11:38+0800 lvl=info msg="Initializing CleanUpService" logger=cleanup
+t=2017-02-28T17:11:38+0800 lvl=info msg="Initializing HTTP Server" logger=server address=0.0.0.0:3000 protocol=http subUrl=
+t=2017-02-28T17:21:22+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/logout status=302 remote_addr=10.10.80.126 time_ms=1ns size=29

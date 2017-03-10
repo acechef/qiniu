@@ -1,0 +1,31 @@
+.app--qbackup {
+  .navbar-inner.no-shadow {
+    box-shadow: none;
+  }
+  .qbackup__in-tab {
+    display: none;
+  }
+  .panel-container {
+    background-color: #f1f4f6;
+    position: relative;
+    border: solid 1px #f1f4f6;
+    border-radius: 5px;
+    box-shadow: none;
+  }
+  .panel-container:hover {
+    box-shadow: 2px 2px 8px 0 rgba(0,0,0,.3);
+  }
+  .panel-title {
+    border: 0px;
+    font-weight: 700;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+  }
+  .panel-content {
+    margin: 10px 10px 10px 10px;
+    background-color: #fff;
+    padding: 10px 0 10px 10px;
+  }
+}

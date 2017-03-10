@@ -1,0 +1,104 @@
+t=2017-03-01T11:58:11+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=1 uname= method=GET path=/login status=302 remote_addr=10.10.80.183 time_ms=2ns size=24
+t=2017-03-01T14:34:33+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=400 remote_addr=10.10.80.183 time_ms=2ns size=121
+t=2017-03-01T16:30:11+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/dashboard status=404 remote_addr=10.10.80.183 time_ms=2ns size=9992
+t=2017-03-01T16:30:19+0800 lvl=info msg="Shutdown started" logger=server code=0 reason="system signal: terminated"
+t=2017-03-01T16:30:20+0800 lvl=info msg="Starting Grafana" logger=main version=4.1.0-pre1 commit=954cdb9 compiled=2016-12-28T19:43:15+0800
+t=2017-03-01T16:30:20+0800 lvl=info msg="Config loaded from" logger=settings file=/opt/grafana/conf/defaults.ini
+t=2017-03-01T16:30:20+0800 lvl=info msg="Path Home" logger=settings path=/opt/grafana
+t=2017-03-01T16:30:20+0800 lvl=info msg="Path Data" logger=settings path=/opt/grafana/data
+t=2017-03-01T16:30:20+0800 lvl=info msg="Path Logs" logger=settings path=/opt/grafana/data/log
+t=2017-03-01T16:30:20+0800 lvl=info msg="Path Plugins" logger=settings path=/opt/grafana/data/plugins
+t=2017-03-01T16:30:20+0800 lvl=info msg="Initializing DB" logger=sqlstore dbtype=sqlite3
+t=2017-03-01T16:30:20+0800 lvl=info msg="Starting DB migration" logger=migrator
+t=2017-03-01T16:30:20+0800 lvl=info msg="Executing migration" logger=migrator id="copy data account to org"
+t=2017-03-01T16:30:20+0800 lvl=info msg="Skipping migration condition not fulfilled" logger=migrator id="copy data account to org"
+t=2017-03-01T16:30:20+0800 lvl=info msg="Executing migration" logger=migrator id="copy data account_user to org_user"
+t=2017-03-01T16:30:20+0800 lvl=info msg="Skipping migration condition not fulfilled" logger=migrator id="copy data account_user to org_user"
+t=2017-03-01T16:30:20+0800 lvl=info msg="Creating json dashboard index for path: [/opt/grafana/dashboards]"
+t=2017-03-01T16:30:20+0800 lvl=info msg="Starting plugin search" logger=plugins
+t=2017-03-01T16:30:20+0800 lvl=info msg="Initializing CleanUpService" logger=cleanup
+t=2017-03-01T16:30:20+0800 lvl=info msg="Initializing Alerting" logger=alerting.engine
+t=2017-03-01T16:30:20+0800 lvl=info msg="Initializing HTTP Server" logger=server address=0.0.0.0:3000 protocol=http subUrl=
+t=2017-03-01T16:30:20+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/label/tid/values status=502 remote_addr=10.10.80.183 time_ms=27ns size=0
+t=2017-03-01T16:30:20+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/label/exporter/values status=502 remote_addr=10.10.80.183 time_ms=71ns size=0
+t=2017-03-01T16:30:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=3ns size=0
+t=2017-03-01T16:30:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=7ns size=0
+t=2017-03-01T16:30:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=7ns size=0
+t=2017-03-01T16:30:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=19ns size=0
+t=2017-03-01T16:30:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=24ns size=0
+t=2017-03-01T16:30:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=30ns size=0
+t=2017-03-01T16:30:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=34ns size=0
+t=2017-03-01T16:30:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=46ns size=0
+t=2017-03-01T16:30:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=54ns size=0
+t=2017-03-01T16:30:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=51ns size=0
+t=2017-03-01T16:30:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=48ns size=0
+t=2017-03-01T16:30:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=59ns size=0
+t=2017-03-01T16:30:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=56ns size=0
+t=2017-03-01T16:30:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=58ns size=0
+t=2017-03-01T16:30:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=63ns size=0
+t=2017-03-01T16:30:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=1ns size=0
+t=2017-03-01T16:30:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=8ns size=0
+t=2017-03-01T16:30:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=19ns size=0
+t=2017-03-01T16:30:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=25ns size=0
+t=2017-03-01T16:30:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=36ns size=0
+t=2017-03-01T16:30:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=41ns size=0
+t=2017-03-01T18:05:17+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=20.162µs size=0
+t=2017-03-01T18:05:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=24.805µs size=0
+t=2017-03-01T18:05:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=25.127µs size=0
+t=2017-03-01T18:05:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=25.135µs size=0
+t=2017-03-01T18:05:21+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/v1/query_range status=502 remote_addr=10.10.80.183 time_ms=24.971µs size=0
+t=2017-03-01T18:21:29+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/dashboard status=404 remote_addr=10.10.80.183 time_ms=2ns size=9992
+t=2017-03-01T18:21:56+0800 lvl=info msg="Shutdown started" logger=server code=0 reason="system signal: terminated"
+t=2017-03-01T18:21:58+0800 lvl=info msg="Starting Grafana" logger=main version=4.1.0-pre1 commit=954cdb9 compiled=2016-12-28T19:43:15+0800
+t=2017-03-01T18:21:58+0800 lvl=info msg="Config loaded from" logger=settings file=/opt/grafana/conf/defaults.ini
+t=2017-03-01T18:21:58+0800 lvl=info msg="Path Home" logger=settings path=/opt/grafana
+t=2017-03-01T18:21:58+0800 lvl=info msg="Path Data" logger=settings path=/opt/grafana/data
+t=2017-03-01T18:21:58+0800 lvl=info msg="Path Logs" logger=settings path=/opt/grafana/data/log
+t=2017-03-01T18:21:58+0800 lvl=info msg="Path Plugins" logger=settings path=/opt/grafana/data/plugins
+t=2017-03-01T18:21:58+0800 lvl=info msg="Initializing DB" logger=sqlstore dbtype=sqlite3
+t=2017-03-01T18:21:58+0800 lvl=info msg="Starting DB migration" logger=migrator
+t=2017-03-01T18:21:58+0800 lvl=info msg="Executing migration" logger=migrator id="copy data account to org"
+t=2017-03-01T18:21:58+0800 lvl=info msg="Skipping migration condition not fulfilled" logger=migrator id="copy data account to org"
+t=2017-03-01T18:21:58+0800 lvl=info msg="Executing migration" logger=migrator id="copy data account_user to org_user"
+t=2017-03-01T18:21:58+0800 lvl=info msg="Skipping migration condition not fulfilled" logger=migrator id="copy data account_user to org_user"
+t=2017-03-01T18:21:58+0800 lvl=info msg="Creating json dashboard index for path: [/opt/grafana/dashboards]"
+t=2017-03-01T18:21:58+0800 lvl=info msg="Starting plugin search" logger=plugins
+t=2017-03-01T18:21:58+0800 lvl=info msg="Initializing Alerting" logger=alerting.engine
+t=2017-03-01T18:21:58+0800 lvl=info msg="Initializing CleanUpService" logger=cleanup
+t=2017-03-01T18:21:58+0800 lvl=info msg="Initializing HTTP Server" logger=server address=0.0.0.0:3000 protocol=http subUrl=
+t=2017-03-01T18:23:08+0800 lvl=info msg="Shutdown started" logger=server code=0 reason="system signal: terminated"
+t=2017-03-01T18:23:09+0800 lvl=info msg="Starting Grafana" logger=main version=4.1.0-pre1 commit=954cdb9 compiled=2016-12-28T19:43:15+0800
+t=2017-03-01T18:23:09+0800 lvl=info msg="Config loaded from" logger=settings file=/opt/grafana/conf/defaults.ini
+t=2017-03-01T18:23:09+0800 lvl=info msg="Path Home" logger=settings path=/opt/grafana
+t=2017-03-01T18:23:09+0800 lvl=info msg="Path Data" logger=settings path=/opt/grafana/data
+t=2017-03-01T18:23:09+0800 lvl=info msg="Path Logs" logger=settings path=/opt/grafana/data/log
+t=2017-03-01T18:23:09+0800 lvl=info msg="Path Plugins" logger=settings path=/opt/grafana/data/plugins
+t=2017-03-01T18:23:09+0800 lvl=info msg="Initializing DB" logger=sqlstore dbtype=sqlite3
+t=2017-03-01T18:23:09+0800 lvl=info msg="Starting DB migration" logger=migrator
+t=2017-03-01T18:23:09+0800 lvl=info msg="Executing migration" logger=migrator id="copy data account to org"
+t=2017-03-01T18:23:09+0800 lvl=info msg="Skipping migration condition not fulfilled" logger=migrator id="copy data account to org"
+t=2017-03-01T18:23:09+0800 lvl=info msg="Executing migration" logger=migrator id="copy data account_user to org_user"
+t=2017-03-01T18:23:09+0800 lvl=info msg="Skipping migration condition not fulfilled" logger=migrator id="copy data account_user to org_user"
+t=2017-03-01T18:23:09+0800 lvl=info msg="Creating json dashboard index for path: [/opt/grafana/dashboards]"
+t=2017-03-01T18:23:09+0800 lvl=info msg="Starting plugin search" logger=plugins
+t=2017-03-01T18:23:09+0800 lvl=info msg="Initializing Alerting" logger=alerting.engine
+t=2017-03-01T18:23:09+0800 lvl=info msg="Initializing CleanUpService" logger=cleanup
+t=2017-03-01T18:23:09+0800 lvl=info msg="Initializing HTTP Server" logger=server address=0.0.0.0:3000 protocol=http subUrl=
+t=2017-03-01T18:24:24+0800 lvl=info msg="Shutdown started" logger=server code=0 reason="system signal: terminated"
+t=2017-03-01T18:24:25+0800 lvl=info msg="Starting Grafana" logger=main version=4.1.0-pre1 commit=954cdb9 compiled=2016-12-28T19:43:15+0800
+t=2017-03-01T18:24:25+0800 lvl=info msg="Config loaded from" logger=settings file=/opt/grafana/conf/defaults.ini
+t=2017-03-01T18:24:25+0800 lvl=info msg="Path Home" logger=settings path=/opt/grafana
+t=2017-03-01T18:24:25+0800 lvl=info msg="Path Data" logger=settings path=/opt/grafana/data
+t=2017-03-01T18:24:25+0800 lvl=info msg="Path Logs" logger=settings path=/opt/grafana/data/log
+t=2017-03-01T18:24:25+0800 lvl=info msg="Path Plugins" logger=settings path=/opt/grafana/data/plugins
+t=2017-03-01T18:24:25+0800 lvl=info msg="Initializing DB" logger=sqlstore dbtype=sqlite3
+t=2017-03-01T18:24:25+0800 lvl=info msg="Starting DB migration" logger=migrator
+t=2017-03-01T18:24:25+0800 lvl=info msg="Executing migration" logger=migrator id="copy data account to org"
+t=2017-03-01T18:24:25+0800 lvl=info msg="Skipping migration condition not fulfilled" logger=migrator id="copy data account to org"
+t=2017-03-01T18:24:25+0800 lvl=info msg="Executing migration" logger=migrator id="copy data account_user to org_user"
+t=2017-03-01T18:24:25+0800 lvl=info msg="Skipping migration condition not fulfilled" logger=migrator id="copy data account_user to org_user"
+t=2017-03-01T18:24:25+0800 lvl=info msg="Creating json dashboard index for path: [/opt/grafana/dashboards]"
+t=2017-03-01T18:24:25+0800 lvl=info msg="Starting plugin search" logger=plugins
+t=2017-03-01T18:24:25+0800 lvl=info msg="Initializing Alerting" logger=alerting.engine
+t=2017-03-01T18:24:25+0800 lvl=info msg="Initializing CleanUpService" logger=cleanup
+t=2017-03-01T18:24:25+0800 lvl=info msg="Initializing HTTP Server" logger=server address=0.0.0.0:3000 protocol=http subUrl=
